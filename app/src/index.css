@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 96%;
+    --foreground: 130 12% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 130 12% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 130 12% 17%;
+    --primary: 150 43% 17%;
+    --primary-foreground: 40 20% 96%;
+    --secondary: 150 39% 30%;
+    --secondary-foreground: 40 20% 96%;
+    --muted: 35 20% 90%;
+    --muted-foreground: 130 8% 40%;
+    --accent: 37 35% 64%;
+    --accent-foreground: 150 43% 17%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 150 43% 17%;
+    --radius: 0.625rem;
+  }
+
+  body {
+    @apply bg-white text-charcoal font-body antialiased;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Liquid Glass Card - physical glass with refraction */
+  .liquid-glass {
+    background: rgba(255,255,255,0.01);
+    backdrop-filter: blur(6px) saturate(140%);
+    -webkit-backdrop-filter: blur(6px) saturate(140%);
+    box-shadow: 
+      inset 1px 1px 0 rgba(255,255,255,0.4),
+      inset -1px -1px 0 rgba(255,255,255,0.1),
+      0 0 20px rgba(200,169,126,0.08);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .liquid-glass::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.4px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 20%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,0.15) 80%, rgba(255,255,255,0.5) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    opacity: 0.25;
+  }
+
+  .liquid-glass::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: 
+      radial-gradient(ellipse 90% 40% at 50% 0%, rgba(255,255,255,0.18) 0%, transparent 55%),
+      radial-gradient(ellipse 60% 35% at 65% 10%, rgba(255,255,255,0.08) 0%, transparent 50%);
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+
+  /* Section label with decorative lines */
+  .section-label {
+    @apply text-xs font-body font-medium uppercase tracking-[0.12em] text-gold flex items-center gap-3 justify-center;
+  }
+
+  .section-label::before,
+  .section-label::after {
+    content: '';
+    @apply w-8 h-px bg-gold/50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
