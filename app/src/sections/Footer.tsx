@@ -42,11 +42,11 @@ export default function Footer() {
               href="#beranda"
               className="inline-flex items-center mb-2 transition-transform duration-300 hover:scale-105"
             >
-              <div className="bg-[#F8F6F1] rounded-lg px-2 py-1.5 shadow-md border border-white/10">
+              <div className="bg-[#F8F6F1] rounded-md px-1 py-1 shadow-sm">
                 <img
                   src="/assets/logo-kopmantara-group.png"
                   alt="Logo KOPMANTARA"
-                  className="w-40 h-auto object-contain"
+                  className="w-32 h-auto object-contain"
                 />
               </div>
             </a>
