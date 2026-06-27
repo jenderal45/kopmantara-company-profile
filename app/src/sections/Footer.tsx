@@ -42,20 +42,11 @@ export default function Footer() {
               href="#beranda"
               className="inline-flex items-center mb-2 transition-transform duration-300 hover:scale-105"
             >
-              <div className="inline-flex bg-white rounded-xl shadow-lg overflow-hidden">
-              style={{
-                width: "fit-content",
-                height: "fit-content",
-                padding: "2px",
-              }}
+              <div className="inline-flex bg-white rounded-lg shadow-md p-0.5">
                 <img
                   src="/assets/logo-kopmantara-group.png"
                   alt="Logo KOPMANTARA"
-                  style={{
-                    width: "90px",
-                    height: "auto",
-                    display: "block",
-                  }}
+                  className="w-24 h-auto block"
                 />
               </div>
             </a>
