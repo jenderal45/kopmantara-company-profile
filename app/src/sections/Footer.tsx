@@ -1,4 +1,4 @@
-import { Leaf, Facebook, Instagram, Youtube, Linkedin, MapPin, Phone, Mail, Globe, CheckCircle } from 'lucide-react';
+import { Facebook, Instagram, Youtube, Linkedin, MapPin, Phone, Mail, Globe, CheckCircle } from 'lucide-react';
 
 const quickLinks = [
   { label: 'Beranda', href: '#beranda' },
@@ -37,14 +37,13 @@ export default function Footer() {
         {/* Top Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-4">
-            <a href="#beranda" className="inline-flex items-center gap-2 mb-5">
-              <div className="w-9 h-9 rounded-full bg-gold/20 flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-gold" />
-              </div>
-              <span className="font-display font-semibold text-lg text-white tracking-tight">
-                KOPMANTARA
-              </span>
+          <div className="lg:col-span-4">            
+            <a href="#beranda" className="inline-flex items-center mb-8">
+              <img
+                src="/assets/logo-kopmantara-group.png"
+                alt="Logo KOPMANTARA"
+                className="w-44 h-auto object-contain"
+              />
             </a>
             <p className="font-body text-[15px] text-white/70 leading-relaxed mb-4">
               Bersama membangun ekonomi kerakyatan naik kelas untuk kesejahteraan anggota dan masyarakat.
