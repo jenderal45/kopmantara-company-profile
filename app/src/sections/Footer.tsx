@@ -37,17 +37,18 @@ export default function Footer() {
         {/* Top Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-4">            
-            <a href="#beranda" 
-              className="inline-flex items-center mb-1 transition-transform duration-300 hover:scale-105"
+          <div className="lg:col-span-4">
+            <a
+              href="#beranda"
+              className="inline-flex items-center mb-2 transition-transform duration-300 hover:scale-105"
             >
-             <div className="bg-[#F8F6F1] rounded-2xl px-5 py-3 shadow-xl border border-white/10">
-              <img
-                src="/assets/logo-kopmantara-group.png"
-                alt="Logo KOPMANTARA"
-                className="w-44 h-auto object-contain"
-              />
-             </div>
+              <div className="bg-[#F8F6F1] rounded-xl px-3 py-2 shadow-lg border border-white/10">
+                <img
+                  src="/assets/logo-kopmantara-group.png"
+                  alt="Logo KOPMANTARA"
+                  className="w-40 h-auto object-contain"
+                />
+              </div>
             </a>
             <p className="font-body text-[15px] text-white/70 leading-relaxed mb-4">
               Bersama membangun ekonomi kerakyatan naik kelas untuk kesejahteraan anggota dan masyarakat.
