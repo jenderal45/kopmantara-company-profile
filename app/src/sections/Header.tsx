@@ -65,7 +65,7 @@ export default function Header() {
               alt="Logo KOPMANTARA"
               className="w-20 h-20 object-contain"
             />
-          <a/>
+          </a>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
