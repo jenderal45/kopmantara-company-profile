@@ -63,15 +63,9 @@ export default function Header() {
             <img
               src="/assets/logo-kopmantara-group.png"
               alt="Logo KOPMANTARA"
-              className="w-12 h-12 object-contain"
+              className="w-20 h-20 object-contain"
             />
-            
-            <span className={`font-display font-semibold text-lg tracking-tight transition-colors duration-300 ${
-              scrolled ? 'text-forest' : 'text-white'
-            }`}>
-              KOPMANTARA
-            </span>
-          </a>
+          <a/>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
