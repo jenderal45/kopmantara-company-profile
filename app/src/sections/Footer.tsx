@@ -46,7 +46,7 @@ export default function Footer() {
                 <img
                   src="/assets/logo-kopmantara-group.png"
                   alt="Logo KOPMANTARA"
-                  className="w-32 h-auto object-contain"
+                  className="w-20 h-auto object-contain"
                 />
               </div>
             </a>
