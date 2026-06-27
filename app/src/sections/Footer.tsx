@@ -45,6 +45,7 @@ export default function Footer() {
                 alt="Logo KOPMANTARA"
                 className="w-44 h-auto object-contain"
               />
+              </div>
             </a>
             <p className="font-body text-[15px] text-white/70 leading-relaxed mb-4">
               Bersama membangun ekonomi kerakyatan naik kelas untuk kesejahteraan anggota dan masyarakat.
