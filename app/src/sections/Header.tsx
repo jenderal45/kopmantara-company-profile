@@ -60,9 +60,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#beranda" className="flex items-center gap-2 shrink-0">
-            <div className="w-9 h-9 rounded-full bg-forest flex items-center justify-center">
-              <Leaf className="w-5 h-5 text-gold" />
-            </div>
+            <img
+              src="/assets/logo-kopmantara-group.png"
+              alt="Logo KOPMANTARA"
+              className="w-12 h-12 object-contain"
+            />
             <span className={`font-display font-semibold text-lg tracking-tight transition-colors duration-300 ${
               scrolled ? 'text-forest' : 'text-white'
             }`}>
