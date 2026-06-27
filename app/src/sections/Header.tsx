@@ -63,7 +63,7 @@ export default function Header() {
             <img
               src="/assets/logo-kopmantara-group.png"
               alt="Logo KOPMANTARA"
-              className="w-20 h-20 object-contain"
+              className="w-32 h-32 object-contain"
             />
           </a>
 
