@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-4">            
             <a href="#beranda" className="inline-flex items-center mb-3">
-              <div className="bg-white rounded-2xl px-4 py-3 shadow-lg">
+              <div className="bg-white rounded-2xl px-4 py-3 shadow-xl border border-white/20">
               <img
                 src="/assets/logo-kopmantara-group.png"
                 alt="Logo KOPMANTARA"
