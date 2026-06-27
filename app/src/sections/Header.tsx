@@ -59,11 +59,11 @@ export default function Header() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-32">
           {/* Logo */}
-          <a href="#beranda" className="flex items-center shrink-0">
+          <a href="#beranda" className="flex items-center shrink-0 overflow-visible">
             <img
               src="/assets/logo-kopmantara-group.png"
               alt="Logo KOPMANTARA"
-              className="w-32 h-32 object-contain"
+              className="w-36 h-36 object-contain scale-125"
             />
           </a>
 
