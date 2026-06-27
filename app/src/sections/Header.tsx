@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Leaf, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Beranda', href: '#beranda' },
@@ -65,6 +65,7 @@ export default function Header() {
               alt="Logo KOPMANTARA"
               className="w-12 h-12 object-contain"
             />
+            
             <span className={`font-display font-semibold text-lg tracking-tight transition-colors duration-300 ${
               scrolled ? 'text-forest' : 'text-white'
             }`}>
