@@ -43,10 +43,19 @@ export default function Footer() {
               className="inline-flex items-center mb-2 transition-transform duration-300 hover:scale-105"
             >
               <div className="inline-flex bg-white rounded-xl shadow-lg overflow-hidden">
+              style={{
+                width: "fit-content",
+                height: "fit-content",
+                padding: "2px",
+              }}
                 <img
                   src="/assets/logo-kopmantara-group.png"
                   alt="Logo KOPMANTARA"
-                  className="w-20 h-auto object-contain"
+                  style={{
+                    width: "90px",
+                    height: "auto",
+                    display: "block",
+                  }}
                 />
               </div>
             </a>
