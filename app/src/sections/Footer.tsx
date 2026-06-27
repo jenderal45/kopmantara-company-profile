@@ -132,25 +132,25 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-sage shrink-0 mt-0.5" />
                 <span className="font-body text-[14px] text-white/70">
-                  Jl. Mandiri Nusantara No. 123, Jakarta, Indonesia
+                  Ruko Pd. Pinang Centre, Jl. Ciputat Raya No.A.24, RT.3/RW.6, Pd. Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12310
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-sage shrink-0" />
                 <span className="font-body text-[14px] text-white/70">
-                  (021) 1234 5678
+                  (+62) 813-2109-663 
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-sage shrink-0" />
                 <span className="font-body text-[14px] text-white/70">
-                  info@kopmantara.id
+                  info@kopmantara.com
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Globe className="w-4 h-4 text-sage shrink-0" />
                 <span className="font-body text-[14px] text-white/70">
-                  www.kopmantara.id
+                  www.kopmantara.com
                 </span>
               </li>
             </ul>
